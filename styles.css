@@ -78,9 +78,10 @@ body {
 
 .ahoy {
   color: #060f22;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 5px;
   -webkit-text-stroke-color: #70cff2;
   font-size: 1.5em;
+  paint-order: stroke fill;
 }
 
 .tag {
