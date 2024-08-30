@@ -37,13 +37,12 @@ body {
   .project-item {
     width: calc(50% - 20px);
     max-width: 400px;
-    min-height: 320px;
+    min-height: 310px;
   }
-
+}
 @media (max-width: 700px) {
   .project-container {
     display: flex;
-
     flex-direction: column;
     width: 90%;
     align-items: center;
@@ -54,19 +53,18 @@ body {
   }
   .title {
     font-size: 1.2em !important;
-    margin-top: 45px !important;
+    margin-top: 20px !important;
   }
-  .noIcon-title{
+  .noIcon-title {
     font-size: 1.2em !important;
-    margin-top: 95px !important;
+    margin-top: 85px !important;
   }
-
 
   .noIcon-project-icon {
     max-width: 65px;
-    margin-top: 50px;
+    margin-top: 45px;
   }
-  
+
   .project-icon {
     max-width: 65px;
   }
@@ -135,7 +133,7 @@ h2 {
   font-size: 1.5em;
   /* border: solid 10px lightgreen; */
   height: 1.5em;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .noIcon-title {
@@ -145,7 +143,7 @@ h2 {
   font-style: normal;
   font-size: 1.5em;
   /* border: solid 10px lightgreen; */
-  margin-top: 100px;
+  margin-top: 60px;
   height: 1.5em;
 }
 .noIcon-project-icon {
@@ -154,7 +152,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   width: 75px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .project-icon {
@@ -163,6 +161,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   width: 75px;
+  margin-top: -25px;
 
   /* border: solid 10px red; */
 }
