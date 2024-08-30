@@ -59,6 +59,18 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.ahoy {
+  color: #060f22;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #70cff2;
+  font-size: 1.5em;
+}
+
+.tag {
+  z-index: 3;
+}
+
 h1 {
   color: white;
   font-family: 'Bitter', serif;
@@ -70,14 +82,14 @@ h1 {
 
 .boaty {
   margin-left: -50px;
-  z-index: -1;
+  z-index: 0;
 }
 
 h2 {
   margin: auto;
   width: 75%;
   text-align: center;
-  color: white;
+  color: #c9cacc;
   text-transform: uppercase;
   font-family: 'moniker', sans-serif;
   font-weight: 100;
@@ -154,11 +166,11 @@ h2 {
   padding: 10px;
 }
 .design-container {
-  padding: 10px;
+  padding: 30px;
   background-color: #1b1414;
   display: flex;
   border-radius: 10px;
-  width: 70%;
+  max-width: 60%;
   justify-content: center;
   align-items: center;
   margin: 10px;
