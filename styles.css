@@ -5,15 +5,85 @@
 body {
   background-color: #060f22;
 }
+
+.container {
+  display: flex;
+  /* border: 10px solid goldenrod; */
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* @media (max-width: 900px) {
+  .container {
+    display: flex;
+    border: 10px solid goldenrod;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    border: solid 5px green;
+  }
+} */
+
+.project-item {
+  width: calc(33.3333% - 20px);
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #092441;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+  .project-item {
+    width: calc(50% - 20px);
+    max-width: 400px;
+    min-height: 320px;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    display: flex;
+
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+  }
+  .project-item {
+    width: calc(100% - 20px);
+    max-width: 400px;
+  }
+}
+
+.header {
+  margin: auto;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 h1 {
   color: white;
   font-family: 'Bitter', serif;
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
+  font-size: 3em;
+}
+
+.boaty {
+  margin-left: -50px;
+  z-index: -1;
 }
 
 h2 {
+  margin: auto;
+  width: 75%;
+  text-align: center;
   color: white;
   text-transform: uppercase;
   font-family: 'moniker', sans-serif;
@@ -21,16 +91,8 @@ h2 {
   font-style: normal;
 }
 
-.project-container {
-  width: 450px;
-  height: 300px;
-  border-radius: 10px;
-  background-color: #092441;
-  margin: 10px;
-}
-
 .title {
-  color: #71cff0;
+  color: #e7d8c9;
   font-family: 'bryant-web', sans-serif;
   font-weight: 400;
   font-style: normal;
