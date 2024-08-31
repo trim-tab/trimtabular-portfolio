@@ -8,7 +8,9 @@ body {
 }
 
 .project-body {
+  margin: 0;
   background-color: #060f22;
+  margin-bottom: 100px;
 }
 .project-container {
   display: flex;
@@ -77,9 +79,21 @@ body {
   .noIcon-title {
     font-size: 1.5em;
   }
+  .marks-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px !important;
+  }
+  .mark {
+    width: 200px !important;
+    margin: 10px !important;
+    padding: 60px;
+  }
 }
 
 .header {
+  padding: 50px;
   margin: auto;
   width: 75%;
   display: flex;
@@ -192,6 +206,38 @@ h2 {
   padding: 30px;
 }
 
+.marks-body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 175px 200px 275px 200px;
+  border-radius: 0px 100px 0px 0px;
+  overflow: hidden;
+}
+
+.marks-title {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'moniker', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+.marks-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.mark {
+  width: 150px;
+  margin: 40px;
+}
 .design-header {
   align-self: flex-end;
   color: white;
@@ -206,13 +252,15 @@ h2 {
 }
 
 .design-body {
-  margin-top: 100px;
+  margin-top: -100px;
   background-color: #0c0a0c;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 0 50px 0 0;
+  border-radius: 100px 0px 0px 0px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .design-title {
