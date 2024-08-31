@@ -8,9 +8,10 @@ body {
 }
 
 .project-body {
-  margin: 0;
   background-color: #060f22;
   margin-bottom: 100px;
+  width: 100%;
+  overflow: hidden;
 }
 .project-container {
   display: flex;
@@ -89,6 +90,10 @@ body {
     width: 200px !important;
     margin: 10px !important;
     padding: 60px;
+  }
+  .design-body {
+    width: 100%;
+    overflow: hidden;
   }
 }
 
@@ -212,9 +217,10 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 175px 200px 275px 200px;
-  border-radius: 0px 100px 0px 0px;
+  padding: 100px 0px 200px 0px;
+  width: 100%;
   overflow: hidden;
+  border-radius: 0px 100px 0px 0px;
 }
 
 .marks-title {
@@ -258,9 +264,9 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 100px 0px 0px 0px;
   width: 100%;
   overflow: hidden;
+  border-radius: 100px 0 0 0;
 }
 
 .design-title {
