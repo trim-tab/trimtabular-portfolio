@@ -12,6 +12,10 @@ body {
   width: 100px;
   padding: 100px;
 }
+.onetap-logo2 {
+  width: 200px;
+  padding: 75px;
+}
 .card {
   display: flex;
   padding: 10px;
