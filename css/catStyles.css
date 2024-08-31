@@ -1,0 +1,15 @@
+.catIcon {
+  width: 33.3333%;
+}
+h1 {
+  font-family: 'anchor-web', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.5em;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

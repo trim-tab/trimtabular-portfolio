@@ -1,0 +1,234 @@
+body {
+  background-image: url('../img/test.png');
+  /* color: #DDDCDC; */
+  background-color: #dddddd;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center top;
+}
+/* onetap */
+.carousel {
+  position: relative;
+  height: 686px;
+  width: 323px;
+  margin: 105px auto;
+  margin-bottom: 0px;
+}
+
+/* adjusts logos for iphone SE*/
+@media screen and (max-width: 667px) {
+  .carousel {
+    margin-bottom: 100px;
+  }
+}
+
+.carousel-container {
+  margin-top: 50px;
+}
+/* photos */
+.pCarousel {
+  position: relative;
+  height: 600px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* adjusts photos for iphone SE*/
+@media screen and (max-width: 667px) {
+  .pCarousel {
+    width: 100%;
+  }
+}
+
+.carousel__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel__track-container {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -khtml-border-radius: 50px;
+  transform: translateZ(0);
+  filter: drop-shadow(50px 60px 50px rgba(0, 0, 0, 0.1));
+}
+
+.pCarousel__track-container {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  /* border-radius: 8px; */
+  transform: translateZ(0);
+  filter: drop-shadow(50px 60px 50px rgba(0, 0, 0, 0.2));
+  /* filter: drop-shadow(20px 20px 10px rgba(0, 0, 0, 0.2)); */
+  border: 20px solid #eeeeee;
+}
+
+.carousel__track {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  height: 100%;
+  transition: transform 250ms ease-in;
+}
+
+.pCarousel__track {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  height: 100%;
+  transition: transform 250ms ease-in;
+}
+
+.carousel__slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-55%);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.pCarousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-40%);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel__button--left {
+  left: -500px;
+}
+
+.carousel__button--right {
+  right: -580px;
+}
+
+.pCarousel__button--left {
+  left: -500px;
+}
+
+.pCarousel__button--right {
+  right: -580px;
+}
+
+/* arrows */
+.poly-left {
+  fill: url(#grad-left);
+}
+
+.poly-right {
+  fill: url(#grad-right);
+}
+
+.pPoly-left {
+  fill: url(#pGrad-left);
+}
+
+.pPoly-right {
+  fill: url(#pGrad-right);
+}
+
+.carousel__nav {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+  cursor: pointer;
+}
+
+.pCarousel__nav {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+  cursor: pointer;
+}
+
+.carousel__indicator {
+  border: 0;
+  border-radius: 50px;
+  width: 12px;
+  height: 12px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 0 8px;
+}
+
+.carousel__indicator.current-slide {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.is-hidden {
+  display: none;
+}
+
+.logo__track {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo__grid {
+  padding: 10%;
+  border-radius: 50px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* adjusts logos for fullscreen desktop*/
+@media screen and (min-width: 1000px) {
+  .logo__track {
+    margin: 10% 25% 10% 25%;
+  }
+  .logo__grid {
+    padding: 5%;
+  }
+}
+
+/* adjusts logos for iphone SE*/
+@media screen and (max-width: 667px) {
+  .logo__track {
+    padding: 0px;
+    margin-bottom: 75px;
+  }
+  .logo__grid {
+    padding: 5%;
+  }
+}
+
+.photos {
+  margin: 100px auto;
+}
+
+.photo__track {
+  margin: 30px auto;
+  width: 600px;
+}
+
+.photo__grid {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.pRow0__item {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
