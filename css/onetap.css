@@ -20,12 +20,12 @@ body {
   width: 300px;
   height: 190px;
   border-radius: 20px;
-  box-shadow: 20px 5px 20px black;
+  box-shadow: 20px 20px 50px black;
 }
 
 .card-photo {
   margin-left: 10px;
   border-radius: 20px;
   width: 140px;
-  box-shadow: 20px 5px 20px black;
+  box-shadow: 20px 20px 50px black;
 }
