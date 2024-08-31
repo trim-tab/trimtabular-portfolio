@@ -2,11 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  list-style-type: none;
 }
 @media (max-width: 700px) {
   .flex-container {
     width: 100%;
-    list-style-type: none;
   }
   .carousel__image {
     width: 350px;
