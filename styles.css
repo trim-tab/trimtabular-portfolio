@@ -13,6 +13,58 @@ body {
   width: 100%;
   overflow: hidden;
 }
+.top-jumper {
+  width: 50px;
+}
+#topper {
+  position: fixed;
+  width: 50px;
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  background: none;
+  border: none;
+}
+
+#topper:hover {
+  background-color: #555;
+  border-radius: 10px;
+  width: 48px;
+}
+#navbar {
+  margin-top: -10px;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#navbar ul {
+  display: flex;
+}
+
+#navbar li {
+  font-family: 'Bitter', serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1.5em;
+  margin: 12px;
+}
+
+#navbar a {
+  color: #e7d8c9;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: white;
+}
+
+ul {
+  list-style: none;
+  justify-content: flex-end;
+}
 .project-container {
   display: flex;
   /* border: 10px solid goldenrod; */
@@ -113,7 +165,7 @@ body {
 }
 
 .header {
-  padding: 50px;
+  padding: 25px;
   margin: auto;
   width: 75%;
   display: flex;
