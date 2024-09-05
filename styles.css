@@ -31,12 +31,15 @@ body {
   min-height: 300px;
   text-decoration: none;
 }
+.svg-icon path {
+  fill: #70ceef;
+}
 
 .project-item:hover {
   background-color: #0b2a4d;
 
   .svg-icon path {
-    fill: green;
+    fill: #e7d8c9;
   }
 }
 
