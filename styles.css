@@ -34,7 +34,12 @@ body {
 
 .project-item:hover {
   background-color: #0b2a4d;
+
+  .project-icon path{
+    fill:green;
+  }
 }
+
 
 @media (max-width: 1200px) {
   .project-container {
