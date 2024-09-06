@@ -200,10 +200,7 @@ ul {
   }
   #topper {
     position: fixed;
-    left: initial;
-    top: initial;
-    bottom: 10px;
-    right: 10px;
+
     width: 30px;
     /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */

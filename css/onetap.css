@@ -1,6 +1,13 @@
 body {
-  background-color: #130f0f;
+  background-color: #101010;
+  height: 100%;
+  background-image: url(../images/onetapBG.svg);
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: center;
 }
+
 .container {
   display: flex;
   justify-content: center;
@@ -21,17 +28,16 @@ body {
   padding: 10px;
 }
 .card-full {
-  width: 250px;
-  height: 100px;
+  width: 320px;
   border-radius: 20px;
-  box-shadow: 20px 20px 50px #010607;
+  box-shadow: 2px 3px 10px #0d0d0d;
 }
 
 .card-photo {
   margin-left: 10px;
   border-radius: 20px;
-  width: 120px;
-  box-shadow: 20px 20px 50px #010607;
+  height: 200px;
+  box-shadow: 2px 10px 5px #0d0d0d;
 }
 
 .card-display {
@@ -52,4 +58,49 @@ body {
 .cardImage {
   border-radius: 30px;
   height: 500px;
+}
+
+.tagline {
+  color: white;
+  font-family: 'stratum-1-web', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  padding: 50px;
+  font-size: 2.5em;
+}
+
+.feature-list {
+  margin-bottom: 80px;
+  margin-left: -10px;
+}
+
+.feature {
+  color: white;
+  font-family: 'stratum-1-web', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.8em;
+}
+
+.chevron {
+  height: 1.8em;
+  margin-right: 40px;
+  align-items: center;
+}
+
+.bullet {
+  list-style-type: none;
+  padding: 20px;
+}
+
+@media (max-width: 700px) {
+  .card-full {
+    width: 250px;
+  }
+  .card-photo {
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 155px;
+    box-shadow: 10px 10px 10px #0d0d0d;
+  }
 }
